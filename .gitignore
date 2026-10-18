@@ -1,0 +1,11 @@
+# 任何形式的凭据都不要进仓库
+.env
+.env.*
+*.pem
+*.json
+!client-config.json
+!client-xhttp.json
+!package.json
+credentials-*.json
+cert.pem
+tunnel-token*
